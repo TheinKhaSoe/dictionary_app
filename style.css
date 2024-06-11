@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background:rgb(153, 214, 209);
+}
+.container{
+    background:white;
+    top:50%;
+    left:50%;
+    width:90vmin;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    padding:80px 50px;
+    border-radius:15px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.search-box{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+.search-box input{
+    border:none;
+    outline:none;
+    padding:5px;
+    font-size:16px;
+    width:70%;
+    border-bottom: 1px solid transparent;
+}
+.search-box input:focus{
+    border:none;
+    outline:none;
+    padding:5px;
+    font-size:16px;
+    width:70%;
+    border-bottom: 1px solid #4caf50;
+}
+.search-box input:active{
+    border:none;
+    outline:none;
+    padding:5px;
+    font-size:16px;
+    width:70%;
+    border-bottom: 1px solid #4caf50;
+}
+.search-box button{
+    padding:5px 0;
+    width:25%;
+    border:none;
+    outline:none;
+    background:#81c283;
+    color:white;
+    display:block;
+    border-radius:5px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.result{
+    position: relative;
+}
+.result h3{
+    color:#135a14;
+}
+.result .word{
+    display:flex;
+    margin-top:80px;
+    justify-content: space-between;
+}
+.result button{
+    font-size:25px;
+    color:#62b964;
+    background:transparent;
+    outline: none;
+    border: none;
+}
+.result .details{
+    font-size:12px;
+    display:flex;
+    gap:10px;
+    color:#6a706a;
+}
+.result .meaning{
+    margin-top:10px;
+    font-size:15px;
+    color:#205222;
+}
+.result .example{
+    color:#3c683e;
+    border-left:5px solid rgb(123, 189, 123);
+    font-style:italic;
+    padding-left:20px;
+    margin-top:20px;
+}
+.disable{
+    display:none;
+}
+
+/* .effect-1{
+    border: 0; padding: 7px 0; border-bottom: 1px solid #ccc;
+    transition:0.4s ease-in-out;
+}
+
+.effect-1:focus{
+    outline:none;
+    border: 0; padding: 7px 0; 
+} */
+
